@@ -28,8 +28,10 @@ rm(list=c("cwmt","gcwdd","gcwkm"))
 # B. Load and clean eBird data ----
 
 # load eBird data from 3 municipalities
-# (notice that this data is not disponible in this Github repository since it
-# needs permission from eBird to be used)
+# (notice that this data is not available in this Github repository since it
+# needs permission from eBird to be used, instead, in this repository we have
+# the already processed data in files for each species, so you can run line
+# 58 to 103 to choose the focal species and then run starting from line 122)
 
 manaus <- read.delim("OriginalData/eBird raw data/all_sps/ebd_BR-AM-038_200201_202612_smp_relJan-2026/ebd_BR-AM-038_200201_202612_smp_relJan-2026.txt", quote ="")
 pf <- read.delim("OriginalData/eBird raw data/all_sps/ebd_BR-AM-048_200201_202612_smp_relJan-2026/ebd_BR-AM-048_200201_202612_smp_relJan-2026.txt", quote ="")
